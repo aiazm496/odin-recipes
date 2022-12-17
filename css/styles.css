@@ -1,0 +1,56 @@
+*{
+    background-color: rgb(209, 235, 226);
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: rgb(224, 82, 82);
+}
+
+img{
+    width: auto;
+    height: 200px;
+}
+
+
+#welcome{
+    background-color: chartreuse;
+}
+
+.recipe-image{
+    text-align: center;
+}
+
+.description,.indegrients,.steps{
+    color: rgb(180, 64, 235);
+}
+
+#oil{
+    color: red;
+}
+
+.description{
+    font-style: italic;
+}
+
+.indegrients,.steps{
+    font-weight: bold;
+}
+
+/* descendant combinator */
+.recipelist .recipe{ 
+    color:red;
+}
+
+/* descendant combinator use with element which is child of parent, can work with non-direct relationship as well*/
+.indegrients .paneer{
+    color: red;
+}
+
+/* chaining  use with elements having multiple classes*/
+.protein.fat{
+    color: blue;
+}
